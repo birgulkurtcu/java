@@ -1,37 +1,37 @@
 package org.example;
 
 public class Product implements IEntity {
-    private int Id;
-    private String Name;
-    private double Price;
+    private int id;
+    private String name;
+    private double price;
 
     public Product(int id, String name, double price) {
-        Id = id;
-        Name = name;
-        Price = price;
+        this.id = id;
+        this.name = name;
+        this.price = price;
     }
 
     public int getId() {
-        return Id;
+        return id;
     }
 
     public void setId(int id) {
-        Id = id;
+        this.id = id;
     }
 
     public String getName() {
-        return Name;
+        return name;
     }
 
     public void setName(String name) {
-        Name = name;
+        this.name = name;
     }
 
     public double getPrice() {
-        return Price;
+        return price;
     }
 
     public void setPrice(double price) {
-        Price = price;
+        this.price = price;
     }
 }
